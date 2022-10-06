@@ -1,4 +1,5 @@
 import "./App.css";
+import Circular from "@mui/material/CircularProgress";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <Header />
 
       <Main />
+      <Circular />
     </div>
   );
 }
