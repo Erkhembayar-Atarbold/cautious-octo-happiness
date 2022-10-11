@@ -35,12 +35,12 @@ function Container() {
 
 function HEADER_LEFT() {
   return (
-    <>
-      <div>
+    <div className="logo">
+      <a href="" className="logo__text">
         <span>W</span>
         <span>M</span>
-      </div>
-    </>
+      </a>
+    </div>
   );
 }
 
@@ -56,7 +56,7 @@ function HEADER_CENTER() {
 
 function HEADER_RIGHT() {
   return (
-    <>
+    <div className="navbar__container">
       <div className="navbar__item--right">
         <Avatar />
       </div>
@@ -67,6 +67,6 @@ function HEADER_RIGHT() {
       <div className="navbar__item--right">
         <ShoppingBagIcon />
       </div>
-    </>
+    </div>
   );
 }

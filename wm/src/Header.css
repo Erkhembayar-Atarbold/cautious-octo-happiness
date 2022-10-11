@@ -21,6 +21,45 @@
     align-items: center;
 }
 
+
+.navbar__container {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
 .navbar__item--right {
-    width: 33.3333%;
+    margin: 0.8rem;
+}
+ 
+
+
+
+.logo {
+    font-style: none;
+    font-size: 1.8rem;
+    width: 50%;
+
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.logo__text {
+    color: burlywood;
+    text-decoration: none;
+}
+.navbar__items--center > form {
+    display: flex;
+    flex: 1;
+}
+
+.navbar__items--center > form > input {
+    flex: 1;
+
+
+    padding: 0.3rem;
 }
