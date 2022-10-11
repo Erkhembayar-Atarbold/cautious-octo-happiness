@@ -1,0 +1,26 @@
+.navbar {
+    padding: 1rem;
+}
+
+.nav__inner {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+}
+
+.navbar__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3333%;
+}
+
+.navbar__items--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__item--right {
+    width: 33.3333%;
+}
